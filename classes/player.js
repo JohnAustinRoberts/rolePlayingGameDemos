@@ -1,6 +1,9 @@
-class Player {
-    constructor(name) {
-        this.name = name;
+const Person = require('./person.js');
+
+class Player extends Person {
+    constructor(name, type, weapon, location) {
+        super(name, type, location);
+        this.weapon = weapon;
     }
 }
 
