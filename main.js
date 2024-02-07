@@ -22,6 +22,13 @@ function main() {
     const npc2 = new NPC('Jeremy', 'Shopkeeper')
     console.log(NPC.npcTotal);
     console.log(NPC.compareType(npc1, player2))
+
+    console.log(player1.getHealth());
+    player1.takeDamage(145);
+    player1.takeDamage(25);
+    console.log(player1.getHealth());
+    player1.drinkPotion(150);
+    console.log(player1.getHealth());
 }
 
 main();
