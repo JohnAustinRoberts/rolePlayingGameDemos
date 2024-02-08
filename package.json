@@ -1,0 +1,19 @@
+{
+  "name": "roleplayinggamedemos",
+  "version": "1.0.0",
+  "description": "Week 4 Demos! We'll be building out a role playing game over the demos this week.",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnAustinRoberts/rolePlayingGameDemos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnAustinRoberts/rolePlayingGameDemos/issues"
+  },
+  "homepage": "https://github.com/JohnAustinRoberts/rolePlayingGameDemos#readme"
+}
